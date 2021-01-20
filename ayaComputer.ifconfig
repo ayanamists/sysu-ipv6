@@ -1,0 +1,28 @@
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:9b:65:d1:d7  txqueuelen 0  (以太网)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enp34s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.223  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 2001:250:3002:4430:bfc3:14ac:a629:4ee2  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::c6b4:cc48:a658:ed5a  prefixlen 64  scopeid 0x20<link>
+        inet6 2001:250:3002:4430:ca14:b253:4e4c:d701  prefixlen 64  scopeid 0x0<global>
+        ether 00:d8:61:7a:7a:3a  txqueuelen 1000  (以太网)
+        RX packets 5375844  bytes 6210088800 (6.2 GB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3677113  bytes 494115770 (494.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (本地环回)
+        RX packets 7134684  bytes 5844763435 (5.8 GB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 7134684  bytes 5844763435 (5.8 GB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+

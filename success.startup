@@ -1,0 +1,6 @@
+sleep 3
+service network restart
+sysu -u lichx37 -p bo39aseYt -i eth1.2 -d
+ip route add 2001:250:3002:4430::/64 dev br-lan metric 255
+exit 0
+
